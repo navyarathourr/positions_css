@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    }
+    .mainbox{
+        border: 2px solid #000000;
+        width: 400px;
+        height: 600px;
+        background-color: #f0f0f0;
+    }
+    .mainbox img{
+        margin: auto;
+        display: block;
+        padding: 0;
+        height: 100px;
+}
+.list1{
+    float: left;
+}
+.list_type1{
+    list-style-type: none;
+    width: 200px;
+}
+.list_type1 li{
+    color: #0000ff;
+    font-family: Arial, Helvetica, sans-serif;
+padding: 5px;
+}
+.list_type1 li:nth-child(1){
+    padding-bottom: 25px;
+}
+.list_type2 li:nth-child(5){
+    padding-top: 25px;
+}
+.list_type2{
+    list-style-type: none;
+    width: 500px;
+}
+.list_type2 li{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+.mainbox p{
+  font-weight: bold;
+}
+</style>
+<body>
+    <div class="mainbox">
+        <h2 style="text-align: center; font-family:Arial, Helvetica, sans-serif; font-weight:600;">HTML</h2>
+        <img src="html-logo.ico" alt="HTML logo">
+        <p style="text-align: center;">The official logo of the latest version, HTML5.</p>
+        <br />
+        <div class="list1">
+            <ul class="list_type1">
+                <li>Filename extension</li>
+                <li>Internet media type</li>
+                <li>Type code</li>
+                <li>Uniform Type Identifier (UTI)</li>
+                <li>Developed by</li>
+                <li>Initial release</li>
+                <li>Latest release</li>
+                <li>Type of format</li>
+                <li>Container for</li>
+                <li>Contained by</li>
+                <li>Extended from</li>
+                <li>Extended to</li>
+                <li>Open format?</li>
+                <li>Website</li>
+            </ul>
+        </div>
+        <div class="list2">
+            <ul class="list_type2">
+                <li>.html <br />.htm</li>
+                <li>text/HTML</li>
+                <li>text/HTML</li>
+                <li>public.html</li>
+                <li>WHATWG</li>
+                <li>1993; 30 years ago</li>
+                <li>HTML5</li>
+                <li>Document</li>
+                <li>HTML elements</li>
+                <li>Web browser</li>
+                <li>SGML</li>
+                <li>XHTML</li>
+                <li>Yes</li>
+                <li>html.spec.whatwg.org</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
